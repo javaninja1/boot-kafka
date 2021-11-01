@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    consumer:
+      group-id: hello-loggers
+      auto-offset-reset: earliest
+    bootstrap-servers: localhost:29092
+
+hello:
+  topic-name: json-topic
+  messages-per-request: 10
